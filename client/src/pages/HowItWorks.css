@@ -1,0 +1,125 @@
+/* ============================================================
+   How It Works — Minimal Timeline
+   ============================================================ */
+
+.timeline {
+  position: relative;
+  max-width: 680px;
+  margin: 0 auto;
+  padding-left: 52px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 22px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--border-hover);
+}
+
+.timeline-step {
+  position: relative;
+  margin-bottom: 32px;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: all 0.45s ease-out;
+}
+
+.timeline-step.step--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.step-marker {
+  position: absolute;
+  left: -52px;
+  top: 28px;
+  width: 44px;
+  height: 44px;
+  background: var(--bg);
+  border: 1.5px solid var(--border-hover);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  transition: all var(--transition);
+}
+
+.timeline-step.step--visible .step-marker {
+  border-color: var(--primary);
+}
+
+.step-number {
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+.timeline-step.step--visible .step-number {
+  color: var(--primary);
+}
+
+.step-content {
+  padding: 24px 28px;
+}
+
+.step-icon {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.step-title {
+  font-size: 1.125rem;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.step-desc {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+
+.step-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: color var(--transition);
+}
+
+.step-link:hover {
+  color: var(--primary-dark);
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 44px;
+  }
+
+  .timeline::before {
+    left: 18px;
+  }
+
+  .step-marker {
+    left: -44px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .step-number {
+    font-size: 0.8125rem;
+  }
+
+  .step-content {
+    padding: 20px 22px;
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "difficulty": "Easy",
+    "question": "How many seats are there in the Lok Sabha?",
+    "options": ["250", "543", "790", "345"],
+    "correctIndex": 1,
+    "explanation": "The Lok Sabha has 543 directly elected seats representing constituencies across India."
+  },
+  {
+    "id": 2,
+    "difficulty": "Easy",
+    "question": "What does NOTA stand for?",
+    "options": ["Not On The Agenda", "None of the Above", "National Order of Transparency Act", "No Official Tally Available"],
+    "correctIndex": 1,
+    "explanation": "NOTA allows voters to formally reject all candidates on the ballot."
+  },
+  {
+    "id": 3,
+    "difficulty": "Easy",
+    "question": "What color is the button you press on an EVM?",
+    "options": ["Green", "Red", "Blue", "Yellow"],
+    "correctIndex": 2,
+    "explanation": "The blue button next to each candidate's name and symbol is pressed to cast your vote."
+  },
+  {
+    "id": 4,
+    "difficulty": "Medium",
+    "question": "How long does the VVPAT display your vote slip?",
+    "options": ["2 seconds", "7 seconds", "15 seconds", "30 seconds"],
+    "correctIndex": 1,
+    "explanation": "The VVPAT displays the paper slip for exactly 7 seconds before it drops into the sealed compartment."
+  },
+  {
+    "id": 5,
+    "difficulty": "Medium",
+    "question": "What is the Model Code of Conduct?",
+    "options": ["Rules for EVM testing", "Rules parties must follow after election results", "Rules parties must follow once elections are announced", "Code of conduct for presiding officers"],
+    "correctIndex": 2,
+    "explanation": "The MCC comes into effect the moment elections are announced and governs party and government behaviour."
+  },
+  {
+    "id": 6,
+    "difficulty": "Medium",
+    "question": "Which two companies manufacture EVMs in India?",
+    "options": ["DRDO and ISRO", "BEL and ECIL", "HCL and Infosys", "BSNL and MTNL"],
+    "correctIndex": 1,
+    "explanation": "Only BEL (Bharat Electronics Limited) and ECIL (Electronics Corporation of India Limited) are authorised."
+  },
+  {
+    "id": 7,
+    "difficulty": "Medium",
+    "question": "What is the national Voter Helpline number?",
+    "options": ["100", "112", "1800", "1950"],
+    "correctIndex": 3,
+    "explanation": "1950 is ECI's national Voter Helpline — call to report violations or get election information."
+  },
+  {
+    "id": 8,
+    "difficulty": "Hard",
+    "question": "What is delimitation?",
+    "options": ["The process of counting postal ballots", "Redrawing of constituency boundaries", "Removing a candidate from the ballot", "Setting the election schedule"],
+    "correctIndex": 1,
+    "explanation": "Delimitation is the redrawing of electoral constituency boundaries, typically after a census."
+  },
+  {
+    "id": 9,
+    "difficulty": "Hard",
+    "question": "What is the Silent Period in Indian elections?",
+    "options": ["The period when results are counted", "48 hours before polling when campaigning is banned", "Time between nomination and campaigning", "Period after results when no announcements are made"],
+    "correctIndex": 1,
+    "explanation": "Section 126 of the RP Act bans public meetings, processions, and media campaigns 48 hours before polling ends."
+  },
+  {
+    "id": 10,
+    "difficulty": "Hard",
+    "question": "Under which Act does an employer have to give paid leave on polling day?",
+    "options": ["Indian Labour Act 1947", "Factories Act 1948", "Representation of the People Act 1951", "Constitutional Amendment Act 1976"],
+    "correctIndex": 2,
+    "explanation": "Section 135B of the Representation of the People Act 1951 mandates paid holiday for employees on election day."
+  }
+]

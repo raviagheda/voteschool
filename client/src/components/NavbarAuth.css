@@ -1,0 +1,13 @@
+.nav-auth-btn {
+  margin-left: 0.5rem;
+  padding: 0.4rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: var(--radius-full);
+}
+
+@media (max-width: 768px) {
+  .nav-auth-btn {
+    display: none; /* Can be moved inside the hamburger menu if needed, but keeping it simple for now */
+  }
+}

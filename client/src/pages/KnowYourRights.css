@@ -1,0 +1,56 @@
+/* ============================================================
+   Know Your Rights — Minimal
+   ============================================================ */
+
+.rights-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.rights-card {
+  text-align: left;
+  padding: 28px 24px;
+  position: relative;
+}
+
+.rights-card:hover {
+  box-shadow: var(--shadow-glow);
+  border-color: rgba(99, 102, 241, 0.15);
+}
+
+.rights-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 14px;
+}
+
+.rights-card-title {
+  font-size: 1.0625rem;
+  color: var(--text);
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.rights-card-desc {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 14px;
+}
+
+.rights-source {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-style: normal;
+  display: block;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 768px) {
+  .rights-grid {
+    grid-template-columns: 1fr;
+  }
+}
